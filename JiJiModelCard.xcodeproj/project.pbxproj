@@ -1,0 +1,607 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A737FFB22A8514020047CA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB12A8514020047CA81 /* AppDelegate.swift */; };
+		A737FFB42A8514020047CA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB32A8514020047CA81 /* SceneDelegate.swift */; };
+		A737FFB62A8514020047CA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB52A8514020047CA81 /* ViewController.swift */; };
+		A737FFB92A8514020047CA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737FFB72A8514020047CA81 /* Main.storyboard */; };
+		A737FFBB2A8514030047CA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A737FFBA2A8514030047CA81 /* Assets.xcassets */; };
+		A737FFBE2A8514030047CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737FFBC2A8514030047CA81 /* LaunchScreen.storyboard */; };
+		A737FFC92A8514030047CA81 /* JiJiModelCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFC82A8514030047CA81 /* JiJiModelCardTests.swift */; };
+		A737FFD32A8514040047CA81 /* JiJiModelCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFD22A8514040047CA81 /* JiJiModelCardUITests.swift */; };
+		A737FFD52A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFD42A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A737FFC52A8514030047CA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A737FFA62A8514020047CA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A737FFAD2A8514020047CA81;
+			remoteInfo = JiJiModelCard;
+		};
+		A737FFCF2A8514030047CA81 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A737FFA62A8514020047CA81 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A737FFAD2A8514020047CA81;
+			remoteInfo = JiJiModelCard;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A737FFAE2A8514020047CA81 /* JiJiModelCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiJiModelCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A737FFB12A8514020047CA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A737FFB32A8514020047CA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A737FFB52A8514020047CA81 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A737FFB82A8514020047CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A737FFBA2A8514030047CA81 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A737FFBD2A8514030047CA81 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A737FFBF2A8514030047CA81 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A737FFC42A8514030047CA81 /* JiJiModelCardTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiJiModelCardTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A737FFC82A8514030047CA81 /* JiJiModelCardTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJiModelCardTests.swift; sourceTree = "<group>"; };
+		A737FFCE2A8514030047CA81 /* JiJiModelCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiJiModelCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A737FFD22A8514040047CA81 /* JiJiModelCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJiModelCardUITests.swift; sourceTree = "<group>"; };
+		A737FFD42A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJiModelCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A737FFAB2A8514020047CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFC12A8514030047CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFCB2A8514030047CA81 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A737FFA52A8514020047CA81 = {
+			isa = PBXGroup;
+			children = (
+				A737FFB02A8514020047CA81 /* JiJiModelCard */,
+				A737FFC72A8514030047CA81 /* JiJiModelCardTests */,
+				A737FFD12A8514040047CA81 /* JiJiModelCardUITests */,
+				A737FFAF2A8514020047CA81 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A737FFAF2A8514020047CA81 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A737FFAE2A8514020047CA81 /* JiJiModelCard.app */,
+				A737FFC42A8514030047CA81 /* JiJiModelCardTests.xctest */,
+				A737FFCE2A8514030047CA81 /* JiJiModelCardUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A737FFB02A8514020047CA81 /* JiJiModelCard */ = {
+			isa = PBXGroup;
+			children = (
+				A737FFB12A8514020047CA81 /* AppDelegate.swift */,
+				A737FFB32A8514020047CA81 /* SceneDelegate.swift */,
+				A737FFB52A8514020047CA81 /* ViewController.swift */,
+				A737FFB72A8514020047CA81 /* Main.storyboard */,
+				A737FFBA2A8514030047CA81 /* Assets.xcassets */,
+				A737FFBC2A8514030047CA81 /* LaunchScreen.storyboard */,
+				A737FFBF2A8514030047CA81 /* Info.plist */,
+			);
+			path = JiJiModelCard;
+			sourceTree = "<group>";
+		};
+		A737FFC72A8514030047CA81 /* JiJiModelCardTests */ = {
+			isa = PBXGroup;
+			children = (
+				A737FFC82A8514030047CA81 /* JiJiModelCardTests.swift */,
+			);
+			path = JiJiModelCardTests;
+			sourceTree = "<group>";
+		};
+		A737FFD12A8514040047CA81 /* JiJiModelCardUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A737FFD22A8514040047CA81 /* JiJiModelCardUITests.swift */,
+				A737FFD42A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift */,
+			);
+			path = JiJiModelCardUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A737FFAD2A8514020047CA81 /* JiJiModelCard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A737FFD82A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCard" */;
+			buildPhases = (
+				A737FFAA2A8514020047CA81 /* Sources */,
+				A737FFAB2A8514020047CA81 /* Frameworks */,
+				A737FFAC2A8514020047CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JiJiModelCard;
+			productName = JiJiModelCard;
+			productReference = A737FFAE2A8514020047CA81 /* JiJiModelCard.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A737FFC32A8514030047CA81 /* JiJiModelCardTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A737FFDB2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardTests" */;
+			buildPhases = (
+				A737FFC02A8514030047CA81 /* Sources */,
+				A737FFC12A8514030047CA81 /* Frameworks */,
+				A737FFC22A8514030047CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A737FFC62A8514030047CA81 /* PBXTargetDependency */,
+			);
+			name = JiJiModelCardTests;
+			productName = JiJiModelCardTests;
+			productReference = A737FFC42A8514030047CA81 /* JiJiModelCardTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A737FFCD2A8514030047CA81 /* JiJiModelCardUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A737FFDE2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardUITests" */;
+			buildPhases = (
+				A737FFCA2A8514030047CA81 /* Sources */,
+				A737FFCB2A8514030047CA81 /* Frameworks */,
+				A737FFCC2A8514030047CA81 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A737FFD02A8514030047CA81 /* PBXTargetDependency */,
+			);
+			name = JiJiModelCardUITests;
+			productName = JiJiModelCardUITests;
+			productReference = A737FFCE2A8514030047CA81 /* JiJiModelCardUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A737FFA62A8514020047CA81 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					A737FFAD2A8514020047CA81 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					A737FFC32A8514030047CA81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A737FFAD2A8514020047CA81;
+					};
+					A737FFCD2A8514030047CA81 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = A737FFAD2A8514020047CA81;
+					};
+				};
+			};
+			buildConfigurationList = A737FFA92A8514020047CA81 /* Build configuration list for PBXProject "JiJiModelCard" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A737FFA52A8514020047CA81;
+			productRefGroup = A737FFAF2A8514020047CA81 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A737FFAD2A8514020047CA81 /* JiJiModelCard */,
+				A737FFC32A8514030047CA81 /* JiJiModelCardTests */,
+				A737FFCD2A8514030047CA81 /* JiJiModelCardUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A737FFAC2A8514020047CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737FFBE2A8514030047CA81 /* LaunchScreen.storyboard in Resources */,
+				A737FFBB2A8514030047CA81 /* Assets.xcassets in Resources */,
+				A737FFB92A8514020047CA81 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFC22A8514030047CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFCC2A8514030047CA81 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A737FFAA2A8514020047CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737FFB62A8514020047CA81 /* ViewController.swift in Sources */,
+				A737FFB22A8514020047CA81 /* AppDelegate.swift in Sources */,
+				A737FFB42A8514020047CA81 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFC02A8514030047CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737FFC92A8514030047CA81 /* JiJiModelCardTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A737FFCA2A8514030047CA81 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A737FFD52A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift in Sources */,
+				A737FFD32A8514040047CA81 /* JiJiModelCardUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A737FFC62A8514030047CA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A737FFAD2A8514020047CA81 /* JiJiModelCard */;
+			targetProxy = A737FFC52A8514030047CA81 /* PBXContainerItemProxy */;
+		};
+		A737FFD02A8514030047CA81 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A737FFAD2A8514020047CA81 /* JiJiModelCard */;
+			targetProxy = A737FFCF2A8514030047CA81 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A737FFB72A8514020047CA81 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A737FFB82A8514020047CA81 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A737FFBC2A8514030047CA81 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A737FFBD2A8514030047CA81 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A737FFD62A8514040047CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A737FFD72A8514040047CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A737FFD92A8514040047CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JiJiModelCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A737FFDA2A8514040047CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = JiJiModelCard/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A737FFDC2A8514040047CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiJiModelCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiJiModelCard";
+			};
+			name = Debug;
+		};
+		A737FFDD2A8514040047CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCardTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JiJiModelCard.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/JiJiModelCard";
+			};
+			name = Release;
+		};
+		A737FFDF2A8514040047CA81 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiJiModelCard;
+			};
+			name = Debug;
+		};
+		A737FFE02A8514040047CA81 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 68SHGJ2RUN;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.JackieLiu.JiJiModelCardUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JiJiModelCard;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A737FFA92A8514020047CA81 /* Build configuration list for PBXProject "JiJiModelCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A737FFD62A8514040047CA81 /* Debug */,
+				A737FFD72A8514040047CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A737FFD82A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A737FFD92A8514040047CA81 /* Debug */,
+				A737FFDA2A8514040047CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A737FFDB2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A737FFDC2A8514040047CA81 /* Debug */,
+				A737FFDD2A8514040047CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A737FFDE2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A737FFDF2A8514040047CA81 /* Debug */,
+				A737FFE02A8514040047CA81 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A737FFA62A8514020047CA81 /* Project object */;
+}
