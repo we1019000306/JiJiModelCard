@@ -7,15 +7,22 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2D16D73CF86FC07364A9D342 /* Pods_JiJiModelCardTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937B32C1152E401E621458DC /* Pods_JiJiModelCardTests.framework */; };
+		703E7C77FA3852A2626CC9E8 /* Pods_JiJiModelCard_JiJiModelCardUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E933D53EFD2A6546AD894BFE /* Pods_JiJiModelCard_JiJiModelCardUITests.framework */; };
+		A345E43089365E3AC6B2C773 /* Pods_JiJiModelCard.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36ABF69F4D8F31396C0DE659 /* Pods_JiJiModelCard.framework */; };
+		A70627FE2A866C9A00505238 /* JiugonggeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70627FD2A866C9A00505238 /* JiugonggeViewController.swift */; };
+		A70628002A866D7500505238 /* FunctionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70627FF2A866D7500505238 /* FunctionViewController.swift */; };
+		A70628052A8674E900505238 /* AssetExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = A70628042A8674E900505238 /* AssetExtensions.swift */; };
+		A71184652A87218E0084B108 /* LandscapeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A71184642A87218E0084B108 /* LandscapeViewController.swift */; };
 		A737FFB22A8514020047CA81 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB12A8514020047CA81 /* AppDelegate.swift */; };
 		A737FFB42A8514020047CA81 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB32A8514020047CA81 /* SceneDelegate.swift */; };
 		A737FFB62A8514020047CA81 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFB52A8514020047CA81 /* ViewController.swift */; };
-		A737FFB92A8514020047CA81 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737FFB72A8514020047CA81 /* Main.storyboard */; };
 		A737FFBB2A8514030047CA81 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A737FFBA2A8514030047CA81 /* Assets.xcassets */; };
 		A737FFBE2A8514030047CA81 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737FFBC2A8514030047CA81 /* LaunchScreen.storyboard */; };
 		A737FFC92A8514030047CA81 /* JiJiModelCardTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFC82A8514030047CA81 /* JiJiModelCardTests.swift */; };
 		A737FFD32A8514040047CA81 /* JiJiModelCardUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFD22A8514040047CA81 /* JiJiModelCardUITests.swift */; };
 		A737FFD52A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A737FFD42A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift */; };
+		A78351792A8527A300AA8D1B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A737FFB72A8514020047CA81 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +43,17 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B0C854B5B36EAE110345E6 /* Pods-JiJiModelCard-JiJiModelCardUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCard-JiJiModelCardUITests.debug.xcconfig"; path = "Target Support Files/Pods-JiJiModelCard-JiJiModelCardUITests/Pods-JiJiModelCard-JiJiModelCardUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		2693312C376E65D51157E28B /* Pods-JiJiModelCard-JiJiModelCardUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCard-JiJiModelCardUITests.release.xcconfig"; path = "Target Support Files/Pods-JiJiModelCard-JiJiModelCardUITests/Pods-JiJiModelCard-JiJiModelCardUITests.release.xcconfig"; sourceTree = "<group>"; };
+		36ABF69F4D8F31396C0DE659 /* Pods_JiJiModelCard.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiJiModelCard.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF44A16B89C3BC60CF4A5F5 /* Pods-JiJiModelCard.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCard.release.xcconfig"; path = "Target Support Files/Pods-JiJiModelCard/Pods-JiJiModelCard.release.xcconfig"; sourceTree = "<group>"; };
+		81061A7913E289CD971F9435 /* Pods-JiJiModelCard.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCard.debug.xcconfig"; path = "Target Support Files/Pods-JiJiModelCard/Pods-JiJiModelCard.debug.xcconfig"; sourceTree = "<group>"; };
+		85A5FD166AF4DABB6CED97B7 /* Pods-JiJiModelCardTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCardTests.release.xcconfig"; path = "Target Support Files/Pods-JiJiModelCardTests/Pods-JiJiModelCardTests.release.xcconfig"; sourceTree = "<group>"; };
+		937B32C1152E401E621458DC /* Pods_JiJiModelCardTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiJiModelCardTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A70627FD2A866C9A00505238 /* JiugonggeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiugonggeViewController.swift; sourceTree = "<group>"; };
+		A70627FF2A866D7500505238 /* FunctionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FunctionViewController.swift; sourceTree = "<group>"; };
+		A70628042A8674E900505238 /* AssetExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AssetExtensions.swift; sourceTree = "<group>"; };
+		A71184642A87218E0084B108 /* LandscapeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeViewController.swift; sourceTree = "<group>"; };
 		A737FFAE2A8514020047CA81 /* JiJiModelCard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JiJiModelCard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A737FFB12A8514020047CA81 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A737FFB32A8514020047CA81 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -49,6 +67,8 @@
 		A737FFCE2A8514030047CA81 /* JiJiModelCardUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JiJiModelCardUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A737FFD22A8514040047CA81 /* JiJiModelCardUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJiModelCardUITests.swift; sourceTree = "<group>"; };
 		A737FFD42A8514040047CA81 /* JiJiModelCardUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JiJiModelCardUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		E232E8C60C816D90754D0D43 /* Pods-JiJiModelCardTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JiJiModelCardTests.debug.xcconfig"; path = "Target Support Files/Pods-JiJiModelCardTests/Pods-JiJiModelCardTests.debug.xcconfig"; sourceTree = "<group>"; };
+		E933D53EFD2A6546AD894BFE /* Pods_JiJiModelCard_JiJiModelCardUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_JiJiModelCard_JiJiModelCardUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A345E43089365E3AC6B2C773 /* Pods_JiJiModelCard.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -63,6 +84,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D16D73CF86FC07364A9D342 /* Pods_JiJiModelCardTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -70,12 +92,31 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				703E7C77FA3852A2626CC9E8 /* Pods_JiJiModelCard_JiJiModelCardUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A70627FC2A866C1100505238 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A70627FD2A866C9A00505238 /* JiugonggeViewController.swift */,
+				A70627FF2A866D7500505238 /* FunctionViewController.swift */,
+				A71184642A87218E0084B108 /* LandscapeViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		A70628032A86746300505238 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				A70628042A8674E900505238 /* AssetExtensions.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 		A737FFA52A8514020047CA81 = {
 			isa = PBXGroup;
 			children = (
@@ -83,6 +124,8 @@
 				A737FFC72A8514030047CA81 /* JiJiModelCardTests */,
 				A737FFD12A8514040047CA81 /* JiJiModelCardUITests */,
 				A737FFAF2A8514020047CA81 /* Products */,
+				B11E83A815484B310B776617 /* Pods */,
+				EE1092B25E64A8978E7036C9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -99,6 +142,8 @@
 		A737FFB02A8514020047CA81 /* JiJiModelCard */ = {
 			isa = PBXGroup;
 			children = (
+				A70628032A86746300505238 /* Extension */,
+				A70627FC2A866C1100505238 /* Controllers */,
 				A737FFB12A8514020047CA81 /* AppDelegate.swift */,
 				A737FFB32A8514020047CA81 /* SceneDelegate.swift */,
 				A737FFB52A8514020047CA81 /* ViewController.swift */,
@@ -127,6 +172,29 @@
 			path = JiJiModelCardUITests;
 			sourceTree = "<group>";
 		};
+		B11E83A815484B310B776617 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				81061A7913E289CD971F9435 /* Pods-JiJiModelCard.debug.xcconfig */,
+				6CF44A16B89C3BC60CF4A5F5 /* Pods-JiJiModelCard.release.xcconfig */,
+				09B0C854B5B36EAE110345E6 /* Pods-JiJiModelCard-JiJiModelCardUITests.debug.xcconfig */,
+				2693312C376E65D51157E28B /* Pods-JiJiModelCard-JiJiModelCardUITests.release.xcconfig */,
+				E232E8C60C816D90754D0D43 /* Pods-JiJiModelCardTests.debug.xcconfig */,
+				85A5FD166AF4DABB6CED97B7 /* Pods-JiJiModelCardTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EE1092B25E64A8978E7036C9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				36ABF69F4D8F31396C0DE659 /* Pods_JiJiModelCard.framework */,
+				E933D53EFD2A6546AD894BFE /* Pods_JiJiModelCard_JiJiModelCardUITests.framework */,
+				937B32C1152E401E621458DC /* Pods_JiJiModelCardTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -134,6 +202,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A737FFD82A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCard" */;
 			buildPhases = (
+				B98FD1F498BFF52DFDF983C1 /* [CP] Check Pods Manifest.lock */,
 				A737FFAA2A8514020047CA81 /* Sources */,
 				A737FFAB2A8514020047CA81 /* Frameworks */,
 				A737FFAC2A8514020047CA81 /* Resources */,
@@ -151,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A737FFDB2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardTests" */;
 			buildPhases = (
+				BACB9B88621871F7AE2CF61F /* [CP] Check Pods Manifest.lock */,
 				A737FFC02A8514030047CA81 /* Sources */,
 				A737FFC12A8514030047CA81 /* Frameworks */,
 				A737FFC22A8514030047CA81 /* Resources */,
@@ -169,6 +239,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = A737FFDE2A8514040047CA81 /* Build configuration list for PBXNativeTarget "JiJiModelCardUITests" */;
 			buildPhases = (
+				508C27B00207A703D8B35560 /* [CP] Check Pods Manifest.lock */,
 				A737FFCA2A8514030047CA81 /* Sources */,
 				A737FFCB2A8514030047CA81 /* Frameworks */,
 				A737FFCC2A8514030047CA81 /* Resources */,
@@ -231,9 +302,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A78351792A8527A300AA8D1B /* Main.storyboard in Resources */,
 				A737FFBE2A8514030047CA81 /* LaunchScreen.storyboard in Resources */,
 				A737FFBB2A8514030047CA81 /* Assets.xcassets in Resources */,
-				A737FFB92A8514020047CA81 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -253,13 +324,86 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		508C27B00207A703D8B35560 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiJiModelCard-JiJiModelCardUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B98FD1F498BFF52DFDF983C1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiJiModelCard-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BACB9B88621871F7AE2CF61F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-JiJiModelCardTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		A737FFAA2A8514020047CA81 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A70628052A8674E900505238 /* AssetExtensions.swift in Sources */,
 				A737FFB62A8514020047CA81 /* ViewController.swift in Sources */,
 				A737FFB22A8514020047CA81 /* AppDelegate.swift in Sources */,
+				A71184652A87218E0084B108 /* LandscapeViewController.swift in Sources */,
+				A70627FE2A866C9A00505238 /* JiugonggeViewController.swift in Sources */,
+				A70628002A866D7500505238 /* FunctionViewController.swift in Sources */,
 				A737FFB42A8514020047CA81 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -366,7 +510,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -420,7 +564,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -432,6 +576,7 @@
 		};
 		A737FFD92A8514040047CA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 81061A7913E289CD971F9435 /* Pods-JiJiModelCard.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -443,8 +588,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -460,6 +606,7 @@
 		};
 		A737FFDA2A8514040047CA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF44A16B89C3BC60CF4A5F5 /* Pods-JiJiModelCard.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -471,8 +618,9 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIRequiresFullScreen = NO;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -488,6 +636,7 @@
 		};
 		A737FFDC2A8514040047CA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E232E8C60C816D90754D0D43 /* Pods-JiJiModelCardTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -508,6 +657,7 @@
 		};
 		A737FFDD2A8514040047CA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 85A5FD166AF4DABB6CED97B7 /* Pods-JiJiModelCardTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -528,6 +678,7 @@
 		};
 		A737FFDF2A8514040047CA81 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B0C854B5B36EAE110345E6 /* Pods-JiJiModelCard-JiJiModelCardUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -546,6 +697,7 @@
 		};
 		A737FFE02A8514040047CA81 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2693312C376E65D51157E28B /* Pods-JiJiModelCard-JiJiModelCardUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
