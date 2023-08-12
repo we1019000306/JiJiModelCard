@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "82074D8D-51F1-4219-8070-B4F61F0F71D4"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EC691A5B-4869-4A5F-9642-F40CC358F7B3"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiJiModelCard/Controllers/JiugonggeViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "3B7E4C42-5F20-4BD4-8AE9-F606EB03157A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiJiModelCard/Controllers/FunctionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "49"
+            endingLineNumber = "49"
+            landmarkName = "prepare(for:sender:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DF0A3998-077F-422B-9CAC-B43C67F8C298"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiJiModelCard/Controllers/FunctionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "31"
+            endingLineNumber = "31"
+            landmarkName = "picker(_:didFinishPicking:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DF0A3998-077F-422B-9CAC-B43C67F8C298 - e9820296b33f49bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JiJiModelCard.FunctionViewController.picker(_: __C.PHPickerViewController, didFinishPicking: Swift.Array&lt;PhotosUI.PHPickerResult&gt;) -&gt; ()"
+                  moduleName = "JiJiModelCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liumingyuan/Documents/iOS/JiJiModelCard/JiJiModelCard/Controllers/FunctionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "916">
+               </Location>
+               <Location
+                  uuid = "DF0A3998-077F-422B-9CAC-B43C67F8C298 - 288106501b915267"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;__C.NSItemProviderReading&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JiJiModelCard.FunctionViewController.picker(_: __C.PHPickerViewController, didFinishPicking: Swift.Array&lt;PhotosUI.PHPickerResult&gt;) -&gt; ()"
+                  moduleName = "JiJiModelCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liumingyuan/Documents/iOS/JiJiModelCard/JiJiModelCard/Controllers/FunctionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "23"
+                  endingLineNumber = "23"
+                  offsetFromSymbolStart = "52">
+               </Location>
+               <Location
+                  uuid = "DF0A3998-077F-422B-9CAC-B43C67F8C298 - e9820296b33f49bd"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "JiJiModelCard.FunctionViewController.picker(_: __C.PHPickerViewController, didFinishPicking: Swift.Array&lt;PhotosUI.PHPickerResult&gt;) -&gt; ()"
+                  moduleName = "JiJiModelCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liumingyuan/Documents/iOS/JiJiModelCard/JiJiModelCard/Controllers/FunctionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "31"
+                  endingLineNumber = "31"
+                  offsetFromSymbolStart = "936">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5ECBADFE-3E08-4F5E-A663-DD36F900EFB4"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "JiJiModelCard/Controllers/FunctionViewController.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "picker(_:didFinishPicking:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5ECBADFE-3E08-4F5E-A663-DD36F900EFB4 - 288106501b91534e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;__C.NSItemProviderReading&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JiJiModelCard.FunctionViewController.picker(_: __C.PHPickerViewController, didFinishPicking: Swift.Array&lt;PhotosUI.PHPickerResult&gt;) -&gt; ()"
+                  moduleName = "JiJiModelCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liumingyuan/Documents/iOS/JiJiModelCard/JiJiModelCard/Controllers/FunctionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "68">
+               </Location>
+               <Location
+                  uuid = "5ECBADFE-3E08-4F5E-A663-DD36F900EFB4 - 288106501b91534e"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;__C.NSItemProviderReading&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in JiJiModelCard.FunctionViewController.picker(_: __C.PHPickerViewController, didFinishPicking: Swift.Array&lt;PhotosUI.PHPickerResult&gt;) -&gt; ()"
+                  moduleName = "JiJiModelCard"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/liumingyuan/Documents/iOS/JiJiModelCard/JiJiModelCard/Controllers/FunctionViewController.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "32"
+                  endingLineNumber = "32"
+                  offsetFromSymbolStart = "256">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -1,0 +1,6 @@
+framework module Pods_JiJiModelCard_JiJiModelCardUITests {
+  umbrella header "Pods-JiJiModelCard-JiJiModelCardUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
